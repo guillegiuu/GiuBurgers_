@@ -17,7 +17,7 @@
       <h1>Crea tu Propia Burger ❤</h1>
       <section class="protein">
         <label for="patty">Como quieres condimentar tu Burger?</label>
-        <input type="text" name="patty" id="patty" value="Chedar">
+        <input type="text" name="patty" id="patty" value="">
       </section>
       <hr>
       <section class="patties">
@@ -45,7 +45,7 @@
       </section>
       <hr>
       <section class="cheesy">
-        <span>¿Quieres añadir el Extra Queso?</span>
+        <span>¿Extra Queso?</span>
         <br>
         <input type="radio" name="cheese" id="yes" value="yes">
         <label for="yes">Si</label>
@@ -54,7 +54,7 @@
       </section>
       <hr>
       <section class="bun-type">
-        <label for="bun">Papas fritas o Nuggets de Pollo?</label>
+        <label for="bun">Papas Fritas o Nuggets de Pollo?</label>
         <select name="bun" id="bun">
           <option value="papas-fritas">Papas Fritas</option>
           <option value="nuggets">Nuggets</option>
@@ -63,11 +63,13 @@
       <hr>
 
       <section class="sauce-selection">
-        <label for="sauce">¿Qué tipo de salsa le gustaría?</label>
+        <label for="sauce">Seleccione el tipo de Salsa</label>
         <input type="text" list="sauces" id="sauce" name="sauce">
-        <!--Add your code below-->
-
-
+        <datalist id="sauces">
+          <option value="ketchup"></option>
+          <option value="mayonesa"></option>
+          <option value="cuarto de libra"></option>
+        </datalist>
       </section>
 
     </form>

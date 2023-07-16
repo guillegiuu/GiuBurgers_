@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <title>Giu Burgers</title>
+</head>
+
+<body>
+  <section id="overlay">
+    <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg"
+      alt="Davie's Burgers Logo" id="logo">
+    <hr>
+    <form>
+      <h1>Crea tu Propia Burger ❤</h1>
+      <section class="protein">
+        <label for="patty">Como quieres condimentar tu Burger?</label>
+        <input type="text" name="patty" id="patty" value="Chedar">
+      </section>
+      <hr>
+      <section class="patties">
+        <label for="amount">¿Cuántas hamburguesas quieres?</label>
+        <input type="number" name="amount" value="2" id="amount">
+      </section>
+      <hr>
+      <section class="cooked">
+        <label for="doneness">Aderezos en la Burger?</label>
+        <br>
+        <span>Pocos</span>
+        <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+        <span>Muchos</span>
+      </section>
+      <hr>
+      <section class="toppings">
+        <span>¿Qué condimentos le gustaría quitar?</span>
+        <br>
+        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+        <label for="lettuce">Lechuga</label>
+        <input type="checkbox" name="topping" id="tomato" value="tomato">
+        <label for="tomato">Tomate</label>
+        <input type="checkbox" name="topping" id="onion" value="onion">
+        <label for="onion">Chedar</label>
+      </section>
+      <hr>
+      <section class="cheesy">
+        <span>¿Quieres añadir el Extra Queso?</span>
+        <br>
+        <input type="radio" name="cheese" id="yes" value="yes">
+        <label for="yes">Si</label>
+        <input type="radio" name="cheese" id="no" value="yes">
+        <label for="no">No</label>
+      </section>
+      <hr>
+      <section class="bun-type">
+        <label for="bun">Papas fritas o Nuggets de Pollo?</label>
+        <select name="bun" id="bun">
+          <option value="papas-fritas">Papas Fritas</option>
+          <option value="nuggets">Nuggets</option>
+        </select>
+      </section>
+      <hr>
+
+      <section class="sauce-selection">
+        <label for="sauce">¿Qué tipo de salsa le gustaría?</label>
+        <input type="text" list="sauces" id="sauce" name="sauce">
+        <!--Add your code below-->
+
+
+      </section>
+
+    </form>
+  </section>
+</body>
+
+</html>
+
+</body>
+
+</html>
